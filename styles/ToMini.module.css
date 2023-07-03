@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');    
+
 .main {
     background: linear-gradient(#050033, #140085);
     width: 100%;
@@ -5,6 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .title {

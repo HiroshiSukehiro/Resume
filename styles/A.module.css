@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 .text {
     color: #b700ff;
     font-weight: 700;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .link {

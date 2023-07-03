@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 .bio {
     background: linear-gradient(#000, #06003f);
     width: 100%;
     height: 700px;
     padding: 0 300px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .title {

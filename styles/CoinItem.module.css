@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 .block {
     border: 1px solid black;
     height: 350px;
     text-align: center;
     background: rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto Mono', monospace;
 }
 
 .block h3 {

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300&display=swap');
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', monospace;
+    font-weight: 700;
+    text-align: right;
+}
+
+.title {
+    margin-top: 200px;
+    margin-right: 150px;
+    font-size: 160px;
+    color: #fff;
+}
+
+.calculator {
+    margin-top: 70px;
+    background: #000;
+    border: 0;
+    border-radius: 25px;
+    color: #fff;
+    width: 420px;
+    height: 680px;
+    border: #333 5px solid;
+}
+
+.board {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    height: 120px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+.buttons {
+    display: grid;
+    margin-right: 25px;
+    margin-left: 20px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+.gray, .orange, .dark, .zero {
+    height: 85px;
+    width: 85px;
+    font-size: 35px;
+    border-radius: 50%;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background .3s linear;
+    cursor: pointer;
+}
+
+.gray {
+    background-color: #a5a5a5;
+    color: #000;
+}
+
+.orange {
+    background: #f1a33c;
+}
+
+.zero {
+    width: 185px;
+    border-radius: 50px;
+    justify-content: flex-start;
+    padding-left: 33px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.gray:active, .orange:active, .dark:active, .zero:active {
+    background: white;
+}
