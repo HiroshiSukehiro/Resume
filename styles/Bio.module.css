@@ -1,0 +1,20 @@
+.bio {
+    background: linear-gradient(#000, #06003f);
+    width: 100%;
+    height: 700px;
+    padding: 0 300px;
+}
+
+.title {
+    font-size: 45px;
+    text-align: center;
+    padding: 40px 0;
+    color: #b700ff;
+}
+
+.text {
+    font-size: 25px;
+    padding-bottom: 60px;
+    color: #0026ffbb;
+    line-height: 45px;
+}

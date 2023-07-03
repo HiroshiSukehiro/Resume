@@ -1,0 +1,36 @@
+.stack {
+    background: #03001d;
+    width: 100%;
+    height: 780px;
+}
+
+.title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #b700ff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.stackBlocks {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.block {
+    width: 300px;
+    font-size: 30px;
+    color: #b700ff;
+}
+
+.blockTitle {
+    padding-bottom: 20px;
+}
+
+.block ul {
+    list-style-type: none;
+    line-height: 45px;
+    font-size: 25px;
+    color: #0026ffbb;
+}

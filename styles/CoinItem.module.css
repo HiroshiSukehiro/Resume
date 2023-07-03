@@ -1,0 +1,19 @@
+.block {
+    border: 1px solid black;
+    height: 350px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.block h3 {
+    opacity: 1;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #7b07ffef;
+}
+
+.block span {
+    font-size: 20px;
+    color: #0026ffbb;
+}

@@ -1,0 +1,36 @@
+.main {
+    background: url('/back.jpg');
+    width: 100%;
+    height: 1080px;
+}
+
+.in {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px;
+    transition: font-size .5s linear;
+}
+
+.title {
+    color: #7b07ffef;
+    font-size: 50px;
+}
+
+.desc {
+    color: #7b07ffef;
+    font-size: 40px;
+}
+
+.coins {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 365px;
+}
+
+.coin {
+    width: 20%;
+    height: 200px;
+}
