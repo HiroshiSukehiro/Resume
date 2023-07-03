@@ -9,7 +9,7 @@ const Bio = () => {
             I did the different work from writing the smart contract web interface to creating streaming services. 
           </div>
           <div className={styles.text}>
-            Most of the time I've been writing the backend, but for the last six months I've been actively developing my skills as a fullstack developer.
+            Most of the time I&apos;ve been writing the backend, but for the last six months I&apos;ve been actively developing my skills as a fullstack developer.
           </div>
           <div className={styles.text}>
             I believe that technology is just a tool and the choice should be given not out of personal preferences, but the expediency of use.

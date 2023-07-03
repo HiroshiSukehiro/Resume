@@ -22,7 +22,7 @@ const Main = () => {
         <div className={styles.main}>
             {/* <Header /> */}
         <div className={styles.in}>
-          <h1 className={styles.title}>Hi! My name is Luka and I'm fullstack developer</h1>
+          <h1 className={styles.title}>Hi! My name is Luka and I&apos;m fullstack developer</h1>
           <div style={{marginTop: 30}}><h2 className={styles.desc}>You can view my stack and my projects below</h2></div>
           <div className={styles.coins}>
             <div className={styles.coin}><CoinItem coinSymbols='BTC' name='BITCOIN' /></div>
