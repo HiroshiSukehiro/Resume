@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', monospace;
+    font-weight: 700;
+    text-align: right;
+    margin-top: 200px;
+}
+
+.title {
+    margin-top: 200px;
+    margin-right: 350px;
+    font-size: 160px;
+    color: #fff;
+}
